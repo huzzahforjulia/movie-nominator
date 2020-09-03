@@ -1,0 +1,54 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700";
+
+html {
+  padding: 50px;
+  padding-left: 20%;
+}
+
+.Polaris-Card {
+  max-width: 71%;
+  margin-top: 20px;
+  max-height: 50%;
+  overflow: scroll;
+}
+
+.column {
+  float: left;
+  width: 35%;
+  margin-right: 1%;
+  margin-bottom: 20px;
+  min-height: 100px;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+li {
+  padding-bottom: 20px;
+  transition: 0.1s;
+}
+
+#nominations-list-item:hover {
+  font-weight: bold;
+}
+
+#search-list-item:hover {
+  font-weight: bold;
+}
+
+.Polaris-Banner {
+  max-width: 71%;
+  clear: both;
+}
+
+#list-button {
+  float: right;
+  padding: 10px;
+  vertical-align: center;
+}
+
