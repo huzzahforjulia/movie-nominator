@@ -16,3 +16,4 @@ Special Features
 * Once you've selected all 5 nominations, you can tweet them!
 * If you refresh the page, your nominations will still be saved!
 * "Loading" indicator!
+* Built with [Shopify Polaris](https://polaris.shopify.com/)!
