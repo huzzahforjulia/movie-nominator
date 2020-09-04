@@ -8,93 +8,91 @@
     />
   </head>
 
-<div style="--top-bar-background:#00848e; --top-bar-background-lighter:#1d9ba4; --top-bar-color:#f9fafb; --p-frame-offset:0px;">
-  <h1 class="Polaris-DisplayText Polaris-DisplayText--sizeExtraLarge">The Shoppies</h1>
-</div>
-
-<p>Search for any movie by title, and select up to 5 nominations for the Shoppie Awards!</p>
-
-<div class="Polaris-Card">
-  <div class="Polaris-Card__Section">
-    <div class="Polaris-SettingAction">
-      <div class="Polaris-SettingAction__Setting">
-        <div class="Polaris-TextField">
-          <input
-            id="input"
-            type="text"
-            value=""
-            placeholder="Search..."
-            class="Polaris-TextField__Input"
-            aria-labelledby="TextField1Label"
-            aria-invalid="false"
-          />
-          <div
-            class="Polaris-TextField__Backdrop"
-          ></div>
-        </div>
-      </div>
-      <div class="Polaris-SettingAction__Action">
-        <button
-          type="button"
-          id="button"
-          onclick="search();"
-          class="Polaris-Button Polaris-Button--primary">
-          <span class="Polaris-Button__Content">
-            <span>Search</span>
-          </span>
-        </button>
-      </div>
-    </div>
+  <div style="--top-bar-background:#00848e; --top-bar-background-lighter:#1d9ba4; --top-bar-color:#f9fafb; --p-frame-offset:0px;">
+    <h1 class="Polaris-DisplayText Polaris-DisplayText--sizeExtraLarge">The Shoppies</h1>
   </div>
-</div>
-  
-<div class="Polaris-Card column">
-  <div class="Polaris-Card__Section">
-    <div class="Polaris-SettingAction">
-      <div class="Polaris-SettingAction__Setting">
-        <h2 class="Polaris-Heading">Search Results</h2>
-        <p id="output"></p>
-          <div style="--top-bar-background:#00848e; --top-bar-background-lighter:#1d9ba4; --top-bar-color:#f9fafb; --p-frame-offset:0px;" id="search-list">
+
+  <p>Search for any movie by title, and select up to 5 nominations for the Shoppie Awards!</p>
+
+  <div class="Polaris-Card">
+    <div class="Polaris-Card__Section">
+      <div class="Polaris-SettingAction">
+        <div class="Polaris-SettingAction__Setting">
+          <div class="Polaris-TextField">
+            <input
+              id="input"
+              type="text"
+              value=""
+              placeholder="Search..."
+              class="Polaris-TextField__Input"
+              aria-labelledby="TextField1Label"
+              aria-invalid="false"
+            />
+            <div
+              class="Polaris-TextField__Backdrop"
+            ></div>
+          </div>
+        </div>
+        <div class="Polaris-SettingAction__Action">
+          <button
+            type="button"
+            id="button"
+            onclick="search();"
+            class="Polaris-Button Polaris-Button--primary">
+            <span class="Polaris-Button__Content">
+              <span>Search</span>
+            </span>
+          </button>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="Polaris-Card column">
-  <div class="Polaris-Card__Section">
-    <div class="Polaris-SettingAction">
-      <div class="Polaris-SettingAction__Setting">
-        <h2 class="Polaris-Heading">Nominations</h2>
-          <div style="--top-bar-background:#00848e; --top-bar-background-lighter:#1d9ba4; --top-bar-color:#f9fafb; --p-frame-offset:0px;" id="nomination-list">
+
+  <div class="Polaris-Card column">
+    <div class="Polaris-Card__Section">
+      <div class="Polaris-SettingAction">
+        <div class="Polaris-SettingAction__Setting">
+          <h2 class="Polaris-Heading">Search Results</h2>
+          <p id="output"></p>
+            <div style="--top-bar-background:#00848e; --top-bar-background-lighter:#1d9ba4; --top-bar-color:#f9fafb; --p-frame-offset:0px;" id="search-list">
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-<div style="--top-bar-background:#00848e; --top-bar-background-lighter:#1d9ba4; --top-bar-color:#f9fafb; --p-frame-offset:0px; visibility: hidden;" id="banner">
-  <div class="Polaris-Banner Polaris-Banner--statusSuccess Polaris-Banner--hasDismiss Polaris-Banner--withinPage" tabindex="0" role="status" aria-live="polite" aria-labelledby="Banner33Heading" aria-describedby="Banner33Content">
-    <div class="Polaris-Banner__Ribbon"><span class="Polaris-Icon Polaris-Icon--colorGreenDark Polaris-Icon--isColored Polaris-Icon--hasBackdrop"><svg viewBox="0 0 20 20" class="Polaris-Icon__Svg" focusable="false" aria-hidden="true">
-          <circle fill="currentColor" cx="10" cy="10" r="9"></circle>
-          <path d="M10 0C4.486 0 0 4.486 0 10s4.486 10 10 10 10-4.486 10-10S15.514 0 10 0m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m2.293-10.707L9 10.586 7.707 9.293a1 1 0 1 0-1.414 1.414l2 2a.997.997 0 0 0 1.414 0l4-4a1 1 0 1 0-1.414-1.414"></path>
-        </svg></span></div>
-    <div class="Polaris-Banner__ContentWrapper">
-      <div class="Polaris-Banner__Heading" id="Banner33Heading">
-        <p class="Polaris-Heading">You have selected all 5 nominations.</p>
+  <div class="Polaris-Card column">
+    <div class="Polaris-Card__Section">
+      <div class="Polaris-SettingAction">
+        <div class="Polaris-SettingAction__Setting">
+          <h2 class="Polaris-Heading">Nominations</h2>
+            <div style="--top-bar-background:#00848e; --top-bar-background-lighter:#1d9ba4; --top-bar-color:#f9fafb; --p-frame-offset:0px;" id="nomination-list">
+          </div>
+        </div>
       </div>
-      <div class="Polaris-Banner__Content" id="Banner33Content">
-        <div class="Polaris-Banner__Actions">
-          <div class="Polaris-ButtonGroup">
-            <div class="Polaris-ButtonGroup__Item">
-              <div class="Polaris-Banner__PrimaryAction"><button type="button" onclick="tweetNominations();" class="Polaris-Button Polaris-Button--outline"><span class="Polaris-Button__Content"><span class="Polaris-Button__Text">Tweet nominations</span></span></button></div>
+    </div>
+  </div>
+
+  <div style="--top-bar-background:#00848e; --top-bar-background-lighter:#1d9ba4; --top-bar-color:#f9fafb; --p-frame-offset:0px; visibility: hidden;" id="banner">
+    <div class="Polaris-Banner Polaris-Banner--statusSuccess Polaris-Banner--hasDismiss Polaris-Banner--withinPage" tabindex="0" role="status" aria-live="polite" aria-labelledby="Banner33Heading" aria-describedby="Banner33Content">
+      <div class="Polaris-Banner__Ribbon"><span class="Polaris-Icon Polaris-Icon--colorGreenDark Polaris-Icon--isColored Polaris-Icon--hasBackdrop"><svg viewBox="0 0 20 20" class="Polaris-Icon__Svg" focusable="false" aria-hidden="true">
+            <circle fill="currentColor" cx="10" cy="10" r="9"></circle>
+            <path d="M10 0C4.486 0 0 4.486 0 10s4.486 10 10 10 10-4.486 10-10S15.514 0 10 0m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m2.293-10.707L9 10.586 7.707 9.293a1 1 0 1 0-1.414 1.414l2 2a.997.997 0 0 0 1.414 0l4-4a1 1 0 1 0-1.414-1.414"></path>
+          </svg></span></div>
+      <div class="Polaris-Banner__ContentWrapper">
+        <div class="Polaris-Banner__Heading" id="Banner33Heading">
+          <p class="Polaris-Heading">You have selected all 5 nominations.</p>
+        </div>
+        <div class="Polaris-Banner__Content" id="Banner33Content">
+          <div class="Polaris-Banner__Actions">
+            <div class="Polaris-ButtonGroup">
+              <div class="Polaris-ButtonGroup__Item">
+                <div class="Polaris-Banner__PrimaryAction"><button type="button" onclick="tweetNominations();" class="Polaris-Button Polaris-Button--outline"><span class="Polaris-Button__Content"><span class="Polaris-Button__Text">Tweet nominations</span></span></button></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-  
-<img id="poster">
   
 </html>
