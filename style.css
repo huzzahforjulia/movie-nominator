@@ -1,5 +1,3 @@
-@import "https://fonts.googleapis.com/css?family=Roboto:400,700";
-
 html {
   padding: 50px;
   padding-left: 20%;
@@ -33,11 +31,7 @@ li {
   transition: 0.1s;
 }
 
-#nominations-list-item:hover {
-  font-weight: bold;
-}
-
-#search-list-item:hover {
+li:hover {
   font-weight: bold;
 }
 
@@ -49,6 +43,8 @@ li {
 #list-button {
   float: right;
   padding: 10px;
-  vertical-align: center;
+  margin-top: -8px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
