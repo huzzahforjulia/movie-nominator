@@ -76,9 +76,7 @@ function nominate(string) {
 // Remove a nomination on button click
 function remove(string) {
   let index = nominations.indexOf(string);
-  if (index > -1) {
-    nominations.splice(index, 1);
-  }
+  nominations.splice(index, 1);
 }
 
 // refresh() is called whenever a button is clicked
