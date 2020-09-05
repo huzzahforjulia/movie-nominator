@@ -2,7 +2,7 @@
 
 This is my solution to the Shopify Web Developer Intern Challenge (2021)!
 
-Here is where my code is hosted:
+**Here is where my code is hosted:**
 
 https://codepen.io/huzzahforjulia/full/abNLbyL
 
