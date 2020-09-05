@@ -29,6 +29,8 @@ ul {
 li {
   padding-bottom: 20px;
   transition: 0.1s;
+  display: flex;
+  justify-content: space-between;
 }
 
 li:hover {
@@ -43,8 +45,9 @@ li:hover {
 #list-button {
   float: right;
   padding: 10px;
+  margin-left: 50px;
   margin-top: -8px;
-  display: inline-block;
+  min-width: 85px;
+  display: flex;
   vertical-align: middle;
 }
-
