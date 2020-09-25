@@ -1,6 +1,6 @@
 # movie-nominator
 
-This is my solution to the Shopify Web Developer Intern Challenge (2021)!
+This is my solution to the Shopify Web Developer Challenge (2021)!
 
 **Here is where my code is hosted:**
 
